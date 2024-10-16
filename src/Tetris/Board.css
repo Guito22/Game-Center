@@ -1,0 +1,51 @@
+#tetrisBoard{
+    margin-top: 20px;
+    border: 7px ridge gray;
+    border-radius: 1%;
+    width: 13rem;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+#tetrisBoard div, #nextPiece div{
+    width: calc(13rem / 10);
+    height: calc(80vh / 20)
+}
+.tetrisSq{
+    background-color: black;
+    box-sizing: border-box;
+
+}
+
+
+#nextSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    translate: calc(300px + 2vw) 100px;
+}
+
+#nextSection button{
+    border-radius: 30px;
+    background-color: orange;
+}
+
+#nextPiece{
+    border: 7px ridge gray;
+    border-radius: 3%;
+
+    width: 7.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+#retry{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+

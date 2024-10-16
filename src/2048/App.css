@@ -1,0 +1,57 @@
+#scoreSection{
+    background-color:slategray;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px 0;
+}
+  
+  
+#headerSection{
+    display: flex;
+    justify-content:space-around  ;
+    align-items: center;
+    margin: 20px;
+    height: 15vh;
+}
+
+#board2048{
+    margin-top: 1rem;
+    background-color:rgb(143, 125, 100);
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+  
+#board2048 {
+    width:50vh;
+    height: 50vh;
+}
+
+.squareNum{
+    width: 21%;
+    height: 21%;
+    background-color:gray;
+    margin: 2%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+  
+  
+
+#buttonSection button:disabled{
+    background-color: darkgrey;
+    cursor: not-allowed;
+    transform: scale(0.9);
+    transition: 0.1s all ease-in-out;
+    color: white;
+}
+  
+

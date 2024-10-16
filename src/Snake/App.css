@@ -1,0 +1,28 @@
+
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 5vh;
+}
+
+nav div{
+  width: 400px;
+  height: 5vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+#loseInfo, #StartButtons{
+  display: flex;
+  height: 70px;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+}
+

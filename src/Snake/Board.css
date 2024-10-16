@@ -1,0 +1,54 @@
+#board{
+    width: 65vh;
+    height: 65vh;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+  
+#board div{
+    width: calc(65vh / 15);
+    height: calc(65vh / 15);
+    box-sizing: border-box;
+    color: wheat;
+    transition: 0.1s all ease-in;
+}
+  
+.square1{
+    background-color: green;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  
+}
+.square2{
+    background-color:darkgreen;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+  
+
+
+.snake1{
+    border: 2px solid navy;
+    position: absolute;
+    z-index: 1000;
+    background-color:darkblue;
+}
+.snake2{
+    border: 2px solid navy;
+
+    position: absolute;
+    z-index: 1000;
+    background-color:blue;
+    font-weight: bolder;
+
+}

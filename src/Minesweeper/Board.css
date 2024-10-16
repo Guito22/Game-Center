@@ -1,0 +1,51 @@
+#mineboard{
+    width: 60vh;
+    height: 60vh;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+  }
+  
+#mineboard div{
+    width: calc(60vh / 15);
+    height: calc(60vh / 15);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#mineboard:hover{
+    cursor: pointer;
+}
+#mineboard div:hover{
+    border: 2px dashed black;
+    border-radius: 3px;
+}
+
+#mineboard div{
+    transition: background-color 0.5s ease;
+}
+
+.sq1{
+    background-color: green;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+
+  
+}
+.sq2{
+    background-color:darkgreen;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+
+  
