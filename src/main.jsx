@@ -14,7 +14,7 @@ import "./index.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/Game-Center'>
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}></Route>
